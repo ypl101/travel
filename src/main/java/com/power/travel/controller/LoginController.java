@@ -12,9 +12,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @Author 叶佩林
+ * @Date 2021/11/23 15:28
+ * @Version 1.0
+ */
 @Controller
 public class LoginController {
-
     @Autowired
     private LoginService loginService;
 
